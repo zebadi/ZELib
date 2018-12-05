@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:background="@drawable/compound_edittext_icon_bg"
+    android:minHeight="58dp"
+    android:padding="4dp"
+    android:id="@+id/relativeLayout"
+    >
+
+    <advance.android.zelib.views.ZEImageView
+        android:id="@+id/img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+android:layout_marginRight="5dp"
+        />
+
+    <View
+        android:background="#e1e1e1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="56dp"
+        android:layout_marginEnd="56dp"
+        android:layout_width="2dp"
+        android:layout_height="50dp"/>
+
+    <advance.android.zelib.views.ZEEditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_marginRight="63dp"
+android:layout_centerVertical="true"
+      />
+
+
+
+</RelativeLayout>

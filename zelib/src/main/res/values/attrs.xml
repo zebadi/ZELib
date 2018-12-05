@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<declare-styleable name="customFont">-->
+    <!--<attr name="font" format="string" />-->
+    <!--</declare-styleable>-->
+
+
+    <declare-styleable name="ZECompoundEditTextIcon">
+        <attr name="iconDrawable" format="integer" />
+        <attr name="iconUrl" format="string" />
+        <!--<attr name="iconUrl" format="string" />-->
+        <attr name="hintText" format="string" />
+        <attr name="textValue" format="string" />
+        <!--<attr name="txtFont" format="string" />-->
+        <attr name="fontList" format="string" >
+            <enum name="BNazanin" value="1"/>
+            <enum name="Nastaliq" value="2"/>
+            <enum name="Vazir" value="3"/>
+            <enum name="TimesNewRoman" value="4"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

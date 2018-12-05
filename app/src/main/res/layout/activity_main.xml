@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".ActivityMain">
+
+    <!--android:id="@+id/zeCompoundEditTextIcon"-->
+    <advance.android.zelib.views.ZECompoundEditTextIcon
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintText="نام"
+        app:fontList="BNazanin"
+        app:iconUrl="https://findicons.com/files/icons/2083/go_green_web/64/user_male.png"
+android:layout_marginBottom="10dp"
+
+        app:textValue="" />
+
+
+    <advance.android.zelib.views.ZECompoundEditTextIcon
+        android:id="@+id/lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:hintText="نام خانوادگی"
+
+
+    app:iconDrawable="@drawable/person"
+        app:textValue="" />
+
+    <!--app:txtFont="fonts/IranNastaliq.ttf"-->
+    <!--app:txtFont="fonts/BFantezy.ttf"-->
+    <advance.android.zelib.views.ZECompoundEditTextIcon
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+app:fontList="TimesNewRoman"
+
+        app:hintText="Email"
+        app:textValue="" />
+    <!--app:hintText="تست"-->
+    <!--app:iconUrl="https://findicons.com/files/icons/1035/human_o2/128/image_x_xbitmap.png"-->
+
+    <!--<advance.android.zelib.views.ZEImageView-->
+    <!--android:id="@+id/img"-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="150dp" />-->
+
+    <!--<advance.android.zelib.views.ZEEditText-->
+    <!--android:id="@+id/txtName"-->
+
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content" />-->
+
+
+    <!--<advance.android.zelib.views.ZETextView-->
+
+    <!--android:id="@+id/txtComment"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="تست فونت نستعلیق"-->
+
+    <!--/>-->
+
+    <advance.android.zelib.views.ZEButton
+        android:id="@+id/okBTN"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="ok" />
+
+
+</LinearLayout>
